@@ -376,16 +376,16 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
 </div>
 
 <div class="support-bar">
-  <span class="support-copy">© 2025 [Your Name] • MIT License</span>
+  <span class="support-copy">© 2025 Noemi Marcolini • MIT License</span>
   <span>—</span>
   <span data-i18n="supportMsg">Built this tool? Find it useful?</span>
-  <a href="https://ko-fi.com/YOUR_USERNAME" target="_blank" rel="noopener">☕ <span data-i18n="supportCTA">Buy me a coffee — €1</span></a>
+  <a href="https://ko-fi.com/noemimarcolini" target="_blank" rel="noopener">☕ <span data-i18n="supportCTA">Buy me a coffee — €1</span></a>
 </div>
 
 <!-- Toast shown after export -->
 <div class="toast" id="supportToast">
   <div class="toast-msg">
-    <span data-i18n="toastMsg">✨ Export complete! <strong>PropSplit</strong> is free and open source.<br>If it saved you time, consider a <a href="https://ko-fi.com/YOUR_USERNAME" target="_blank">€1 coffee</a> — it means a lot!</span>
+    <span data-i18n="toastMsg">✨ Export complete! <strong>PropSplit</strong> is free and open source.<br>If it saved you time, consider a <a href="https://ko-fi.com/noemimarcolini" target="_blank">€1 coffee</a> — it means a lot!</span>
   </div>
   <button class="toast-close" onclick="closeToast()">✕</button>
 </div>
@@ -424,7 +424,7 @@ const L = {
     panTitle:'Image Position',panReset:'Center',panX:'Horizontal',panY:'Vertical',
     panHint:'💡 Drag directly on the Social preview to reposition the photo, or use the sliders for precision.',
     supportMsg:'Find it useful?',supportCTA:'Buy me a coffee — €1',
-    toastMsg:'✨ Export complete! <strong>PropSplit</strong> is free and open source.<br>If it saved you time, consider a <a href="https://ko-fi.com/YOUR_USERNAME" target="_blank">€1 coffee</a> — it means a lot!',
+    toastMsg:'✨ Export complete! <strong>PropSplit</strong> is free and open source.<br>If it saved you time, consider a <a href="https://ko-fi.com/noemimarcolini" target="_blank">€1 coffee</a> — it means a lot!',
   },
   it: {
     subtitle:'Separatore Foto MLS & Social',thLabel:'Chiaro',
@@ -443,7 +443,7 @@ const L = {
     panTitle:'Posizione Immagine',panReset:'Centra',panX:'Orizzontale',panY:'Verticale',
     panHint:'💡 Trascina direttamente sull\'anteprima Social per riposizionare la foto, oppure usa gli slider per la precisione.',
     supportMsg:'Ti è stato utile?',supportCTA:'Offrimi un caffè — €1',
-    toastMsg:'✨ Export completato! <strong>PropSplit</strong> è gratuito e open source.<br>Se ti ha fatto risparmiare tempo, considera un <a href="https://ko-fi.com/YOUR_USERNAME" target="_blank">caffè da €1</a> — significa molto!',
+    toastMsg:'✨ Export completato! <strong>PropSplit</strong> è gratuito e open source.<br>Se ti ha fatto risparmiare tempo, considera un <a href="https://ko-fi.com/noemimarcolini" target="_blank">caffè da €1</a> — significa molto!',
   }
 };
 function applyL(){document.querySelectorAll('[data-i18n]').forEach(e=>{const k=e.getAttribute('data-i18n');if(L[S.lang][k])e.textContent=L[S.lang][k]})}
